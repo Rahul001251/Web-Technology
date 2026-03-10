@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Technologgy</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg,#6a11cb,#2575fc);
+    margin:0;
+    padding:40px;
+    color:#333;
+}
+
+/* Title */
+h1{
+    text-align:center;
+    color:white;
+    margin-bottom:40px;
+    letter-spacing:1px;
+}
+
+/* Grid layout */
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* Cards */
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:all 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* Headings */
+.card h3{
+    margin-bottom:10px;
+    color:#222;
+}
+
+/* Paragraph */
+.card p{
+    color:#666;
+    font-size:14px;
+}
+
+/* Links (Experiment buttons) */
+.card a{
+    text-decoration:none;
+    background:#2575fc;
+    color:white;
+    padding:10px 18px;
+    border-radius:6px;
+    display:inline-block;
+    margin-top:10px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+/* Hover link */
+.card a:hover{
+    background:#1b5edb;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Web Technology</h1>
+
+<div class="container">
+
+<!-- Card 1 -->
+<div class="card">
+
+<h3>Rahul Kummer Shah</h3>
+<p>USN :24BTRCN069 </p>
+<p>CSE General B</p>
+</div>
+
+<!-- Card 2 (Same as Card 1) -->
+<div class="card">
+
+<h3>Faculty : Junaid Rasool </h3>
+<p>Web Technoloy</p>
+</div>
+
+<!-- Card 3 -->
+<div class="card">
+
+<h3><a href="Assignment 1/index.html">Experiment 1</a></h3>
+
+</div>
+
+<!-- Card 4 -->
+<div class="card">
+<h3><a href="Assignment2/index.html">Experiment 2</a></h3>
+</div>
+
+<!-- Card 5 -->
+<div class="card">
+
+<h3><a href="Assignment3/index.html">Experiment 3</a></h3>
+
+</div>
+
+<!-- Card 6 -->
+<div class="card">
+<h3><a href="Assignment4/index.html">Experiment 4</a></h3>
+
+</div>
+
+</div>
+
+</body>
+</html>
